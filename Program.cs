@@ -21,7 +21,6 @@ namespace P1
                 Console.WriteLine("Enter movie name:");
                 movie = Console.ReadLine();
             }
-           
                 Console.WriteLine("Number of tickets:");
                 tickets = Convert.ToInt32(Console.ReadLine());
             
@@ -69,10 +68,10 @@ namespace P1
                     {
                 pay = 50;
             }
-            Console.WriteLine("Movie interest rating:");
-            rating = Convert.ToDecimal(Console.ReadLine());
-            Console.WriteLine("Would you like to have popcorn? y/n");
-            popcorn = Convert.ToChar(Console.ReadLine());
+                Console.WriteLine("Movie interest rating:");
+                rating = Convert.ToDecimal(Console.ReadLine());
+                Console.WriteLine("Would you like to have popcorn? y/n");
+                popcorn = Convert.ToChar(Console.ReadLine());
             if (popcorn == 'y')
             {
                 tpay = pay + (0.1 * pay)+ popcorn_amt;
@@ -84,13 +83,13 @@ namespace P1
                 tpay = pay + (0.1 * pay);
                 Console.WriteLine($"Total pay including tax:{tpay}");
             }
-            Console.WriteLine("Do you need mobile alerts? yes/no");
-            alert = Console.ReadLine();
+                Console.WriteLine("Do you need mobile alerts? yes/no");
+                alert = Console.ReadLine();
             if (alert == "yes")
             {
                 alert_need = true;
             }
-            Console.WriteLine("Okay. Thank you...!!!");
+                Console.WriteLine("Okay. Thank you...!!!");
         }
         
     }
