@@ -68,7 +68,7 @@ namespace P1
                     {
                 pay = 50;
             }
-                Console.WriteLine("Movie interest rating:");
+                Console.WriteLine("Movie interest rating :");
                 rating = Convert.ToDecimal(Console.ReadLine());
                 Console.WriteLine("Would you like to have popcorn? y/n");
                 popcorn = Convert.ToChar(Console.ReadLine());
